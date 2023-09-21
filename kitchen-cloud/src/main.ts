@@ -2,24 +2,17 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import axios from 'axios';
+
 import App from './App.vue'
 import router from './router'
-
-/* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
-
-/* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
-/* import specific icons */
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-
-/* add icons to the library */
-library.add(faUserSecret)
+import PrimeVue from 'primevue/config';
+import 'primevue/resources/themes/saga-blue/theme.css';
+import 'primevue/resources/primevue.min.css';
+import 'primeicons/primeicons.css';
+import '../node_modules/primeflex/primeflex.css'
 
 const app = createApp(App)
-
+app.use(PrimeVue);
 app.use(createPinia())
 app.use(router)
 
