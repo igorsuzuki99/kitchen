@@ -17,34 +17,12 @@
         <li>
           <Button
             class="m-1"
-            icon="pi pi-calendar"
-            text
-            plain
-            rounded
-            aria-label="Calendar"
-            label="Calendário"
-          />
-        </li>
-        <li>
-          <Button
-            class="m-1"
             icon="pi pi-chart-pie"
             text
             plain
             rounded
             aria-label="Bookmark"
-            label="Gráficos"
-          />
-        </li>
-        <li>
-          <Button
-            class="m-1"
-            icon="pi pi-microphone"
-            text
-            plain
-            rounded
-            aria-label="Bookmark"
-            label="Chamadas"
+            label="Dashboard"
           />
         </li>
         <li>
