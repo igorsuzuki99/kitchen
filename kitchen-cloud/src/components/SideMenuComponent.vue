@@ -3,7 +3,8 @@
       class="sidemenu-container p-0 bg-white h-screen z-2 fixed lg:static lg:z-1"
     >
       <ul class="list-none p-1">
-        <li>
+        <RouterLink to="/painel">
+        <li> 
           <Button
             class="m-1"
             icon="pi pi-home"
@@ -14,6 +15,7 @@
             label="Painel"
           />
         </li>
+        </RouterLink>
         <li>
           <Button
             class="m-1"

@@ -11,12 +11,17 @@
       />
     </transition>
     </div>
-  </template>
+    <div class="flex-1">
+      <RouterView></RouterView>
+    </div>
+</template>
   
   <script setup lang="ts">
   import HeaderComponent from '@/components/HeaderComponent.vue';
   import { useLayoutStore } from '@/stores/layout';
   import SideMenuComponent from '@/components/SideMenuComponent.vue';
+  import { RouterView } from 'vue-router';
+
   const layoutStore = useLayoutStore();
   </script>
   
