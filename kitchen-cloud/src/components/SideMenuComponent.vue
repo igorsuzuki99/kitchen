@@ -4,6 +4,13 @@
     >
       <ul class="list-none p-1">
         <li>
+  <Button class="custom-button">
+    <div class="label">Painel</div>
+    <i class="pi pi-check icon"></i>
+  </Button>
+</li>
+
+        <li>
           <Button
             class="m-1"
             icon="pi pi-home"
@@ -49,4 +56,26 @@
     border-right: 1px solid #dee2e6;
     top: 72px;
   }
+  .m-450{
+    
+    
+  }
+  .custom-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.icon {
+  font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+}
+
   </style>
